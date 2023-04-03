@@ -40,3 +40,4 @@ for title, code in titles.items():
         total_cost += quantity * price
     print(f"{title} - {quantity} шт, стоимость {total_cost} руб")
 
+# Ну тут без вопросов)
