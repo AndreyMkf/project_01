@@ -26,3 +26,5 @@ def switch_it_up(number):
         9: 'Nine'
     }
     return words.get(number)
+
+# Оой какая прелесть!)) отлично)
