@@ -78,3 +78,17 @@ import datetime
 
 total_time = datetime.timedelta(seconds=int(total_time * 60))
 print(f"Три песни звучат {total_time}")
+
+# Все отлично) я сделал немного иначе
+from datetime import timedelta
+from math import modf
+from random import sample
+
+
+total_time = timedelta()
+
+for song in sample(my_favorite_songs, 3):
+    s, m = modf(song[1])
+    total_time += timedelta(minutes=int(m), seconds=int(s * 100))
+
+print(f'Три песни звучат {total_time} минут')
