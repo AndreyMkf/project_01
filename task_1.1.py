@@ -17,3 +17,5 @@ print(songs_list[0]) # первый трек
 print(songs_list[-1]) # последний трек
 print(songs_list[1]) # второй трек
 print(songs_list[-2]) # второй с конца трек
+
+# Отлично)
